@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 
 /**
- * 
+ *
  *
  * @property int $id
  * @property string $title
@@ -38,6 +38,13 @@ use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 class Incident extends Model
 {
     use HasFactory;
+
+    protected function casts(): array
+    {
+        return [
+            'date' => 'datetime',
+        ];
+    }
 
     public function medias(): HasMany
     {

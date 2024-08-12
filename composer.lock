@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3930d926b1f22e4a9e3b0477b8916f2",
+    "content-hash": "7703cb703fbca3ae6ade9cfca68379f2",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -2139,6 +2139,79 @@
             "time": "2024-06-26T13:09:29+00:00"
         },
         {
+            "name": "laravel/folio",
+            "version": "v1.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/folio.git",
+                "reference": "3b6e8de60ca7487364d1cd35378069c111963f78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/folio/zipball/3b6e8de60ca7487364d1cd35378069c111963f78",
+                "reference": "3b6e8de60ca7487364d1cd35378069c111963f78",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^10.19|^11.0",
+                "illuminate/container": "^10.19|^11.0",
+                "illuminate/contracts": "^10.19|^11.0",
+                "illuminate/filesystem": "^10.19|^11.0",
+                "illuminate/pipeline": "^10.19|^11.0",
+                "illuminate/routing": "^10.19|^11.0",
+                "illuminate/support": "^10.19|^11.0",
+                "illuminate/view": "^10.19|^11.0",
+                "php": "^8.1",
+                "spatie/once": "^3.1",
+                "symfony/console": "^6.0|^7.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^8.6.0|^9.0",
+                "pestphp/pest": "^2.5",
+                "phpstan/phpstan": "^1.10"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Folio\\FolioServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "functions.php"
+                ],
+                "psr-4": {
+                    "Laravel\\Folio\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Page based routing for Laravel.",
+            "homepage": "https://github.com/laravel/folio",
+            "keywords": [
+                "laravel",
+                "routing"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/folio/issues",
+                "source": "https://github.com/laravel/folio"
+            },
+            "time": "2024-05-07T13:37:42+00:00"
+        },
+        {
             "name": "laravel/framework",
             "version": "v11.20.0",
             "source": {
@@ -3242,6 +3315,78 @@
                 }
             ],
             "time": "2024-07-15T18:27:32+00:00"
+        },
+        {
+            "name": "livewire/volt",
+            "version": "v1.6.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/livewire/volt.git",
+                "reference": "d09fdb4cb52c6ce821d255683195bb6d446fe141"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/livewire/volt/zipball/d09fdb4cb52c6ce821d255683195bb6d446fe141",
+                "reference": "d09fdb4cb52c6ce821d255683195bb6d446fe141",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^10.38.2|^11.0",
+                "livewire/livewire": "^3.0",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "laravel/folio": "^1.1",
+                "mockery/mockery": "^1.6",
+                "orchestra/testbench": "^8.15.0|^9.0",
+                "pestphp/pest": "^2.9.5",
+                "phpstan/phpstan": "^1.10"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Livewire\\Volt\\VoltServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "functions.php"
+                ],
+                "psr-4": {
+                    "Livewire\\Volt\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                },
+                {
+                    "name": "Nuno Maduro",
+                    "email": "nuno@laravel.com"
+                }
+            ],
+            "description": "An elegantly crafted functional API for Laravel Livewire.",
+            "homepage": "https://github.com/livewire/volt",
+            "keywords": [
+                "laravel",
+                "livewire",
+                "volt"
+            ],
+            "support": {
+                "issues": "https://github.com/livewire/volt/issues",
+                "source": "https://github.com/livewire/volt"
+            },
+            "time": "2024-05-31T19:07:20+00:00"
         },
         {
             "name": "maennchen/zipstream-php",
